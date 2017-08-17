@@ -1,0 +1,270 @@
+/*定义body样式*/
+body{
+	margin:0;
+	padding:0;
+	font:normal 62.5% Helvetica,Arial,sans-serif;
+}
+/*与网页框架底部的距离*/
+.bottom2{
+	min-width: 1200px;
+	margin-top: 50px;
+}
+/*定义大容器*/
+.glc_qixi_rule{
+	min-width: 1200px;
+	height: auto;
+}
+/*上部区域——banner图部分 */
+.glc_qixi_banner{
+	position: relative;
+	min-width: 1200px;
+}
+/*中部区域——礼盒和规则部分*/
+.glc_qixi_rule{
+	position: relative;
+	min-width: 1200px;
+	margin: -3px auto auto auto;
+}
+/*下部区域——lower部分*/
+.glc_qixi_lower{
+	position: relative;
+	min-width: 1200px;
+	margin: -3px auto auto auto;
+}
+/*火箭图片*/
+.glc_qixi_banner_ruize-icon{
+	position: absolute;
+	z-index: 2;
+	top: 57.142857%;
+	left: 74.916667%;
+	width: 7.8125%;
+	min-width: 100px;
+    height: 39.5%;
+    transform: rotate(300deg);
+    -webkit-animation:moveicon 3s linear 1 forwards;
+       -moz-animation:moveicon 3s linear 1 forwards;
+         -o-animation:moveicon 3s linear 1 forwards;
+            animation:moveicon 3s linear 1 forwards;
+
+}
+@-webkit-keyframes moveicon{
+	form {left: 72.916667%;top: 57.142857%;}
+	to   {left: 31.25%;top: 42.857143%;
+			-webkit-transform: scale(.8) rotate(300deg);
+			   -moz-transform: scale(.8) rotate(300deg);
+			     -o-transform: scale(.8) rotate(300deg);
+			        transform: scale(.8) rotate(300deg);
+		}
+}
+@-moz-keyframes moveicon{
+	form {left: 72.916667%;top: 57.142857%;}
+	to   {left: 31.25%;top: 42.857143%;
+		    -webkit-transform: scale(.8) rotate(300deg);
+			   -moz-transform: scale(.8) rotate(300deg);
+			     -o-transform: scale(.8) rotate(300deg);
+			        transform: scale(.8) rotate(300deg);
+		 }
+}
+@-o-keyframes moveicon{
+	form {left: 72.916667%;top: 57.142857%;}
+	to   {left: 31.25%;top: 42.857143%;
+		    -webkit-transform: scale(.8) rotate(300deg);
+			   -moz-transform: scale(.8) rotate(300deg);
+			     -o-transform: scale(.8) rotate(300deg);
+			        transform: scale(.8) rotate(300deg);
+		 }
+}
+@keyframes moveicon{
+	form {left: 72.916667%;top: 57.142857%;}
+	to   {left: 31.25%;top: 42.857143%;
+		    -webkit-transform: scale(.8) rotate(300deg);
+			   -moz-transform: scale(.8) rotate(300deg);
+			     -o-transform: scale(.8) rotate(300deg);
+			        transform: scale(.8) rotate(300deg);
+		 }
+}
+/*标题图*/
+.glc_qixi_banner_title{
+	position: absolute;
+	z-index: 2;
+	top: 13.142857%;
+	left: 85.916667%;
+	width: 28.645833%;
+	min-width: 350px;
+    height: 43.75%;
+    -webkit-animation: movetitle 3s linear 1 forwards;
+       -moz-animation: movetitle 3s linear 1 forwards;
+         -o-animation: movetitle 3s linear 1 forwards;
+            animation: movetitle 3s linear 1 forwards;
+}
+@-webkit-keyframes movetitle{
+	form{op: 13.142857%;left:85.916667%;}
+	to{top: 13.142857%;left: 35.916667%;}
+}
+@-moz-keyframes movetitle{
+	form{op: 13.142857%;left:85.916667%;}
+	to{top: 13.142857%;left: 35.916667%;}
+}
+@-o-keyframes movetitle{
+	form{op: 13.142857%;left:85.916667%;}
+	to{top: 13.142857%;left: 35.916667%;}
+}
+@keyframes movetitle{
+	form{op: 13.142857%;left:85.916667%;}
+	to{top: 13.142857%;left: 35.916667%;}
+}
+
+/*banner图*/
+.glc_qixi_banner_img{
+	position: relative;
+	width: 100%;
+	min-width: 1200px;
+}
+/*中部大区域上半边的背景图*/
+.glc_qixi_rule_center-top_img{
+	position: relative;
+	width: 100%;
+
+}
+/*中部大区域下半边的背景图*/
+.glc_qixi_rule_center-low_img{
+	position: relative;
+	width: 100%;
+	margin: -3px auto auto auto;
+}
+/*下部区域的*/
+.glc_qixi_lower_img{
+	position: relative;
+	width: 100%;
+}
+/*礼券规则上部区域左边的红包*/
+.glc_qixi_rule_center-top_left{
+	position: absolute;
+	z-index: 2;
+	width: 14.583333%;
+	min-width: 175px;
+	margin: 20% auto auto 25%;
+}
+.glc_qixi_rule_center-top_left_img{
+	width: 100%;
+}
+/*礼券规则上部区域中间的红包*/
+.glc_qixi_rule_center-top_center
+{
+	position: absolute;
+	z-index: 2;
+	width: 14.583333%;
+	min-width: 175px;
+	margin: 20% auto auto 42.708333%;
+
+}
+.glc_qixi_rule_center-top_center_img
+{
+	width: 100%;
+}
+/*礼券规则上部区域右边的红包*/
+.glc_qixi_rule_center-top_right{
+	position: absolute;
+	z-index: 2;
+	width: 14.583333%;
+	min-width: 175px;
+	margin: 20% auto auto 59.895833%;
+}
+.glc_qixi_rule_center-top_right_img{
+	width: 100%;
+}
+/*鼠标悬浮，红包变小*/
+.glc_qixi_rule_center-top_left:hover,
+.glc_qixi_rule_center-top_center:hover,
+.glc_qixi_rule_center-top_right:hover{
+	-webkit-transform: scale(.85);
+	   -moz-transform: scale(.85);
+	    -ms-transform: scale(.85);
+	     -o-transform: scale(.85);
+	        transform: scale(.85);
+}
+
+/*中部大区域的下半边的立即投资按钮*/
+.glc_qixi_rule_center-low_button{
+	position: absolute;
+	z-index: 2;
+	width: 12.5%;
+	min-width: 150px;
+	margin: 45% auto auto 43.229167%;
+}
+/*鼠标悬浮，立即投资按钮变大*/
+.glc_qixi_rule_center-low_button:hover{
+	-webkit-transform: scale(1.3);
+	   -moz-transform: scale(1.3);
+	    -ms-transform: scale(1.3);
+	     -o-transform: scale(1.3);
+}
+.glc_qixi_rule_center-low_button_img{
+	width: 100%;
+}
+/*礼券使用规则说明和表格*/
+.glc_qixi_rule_exp{
+	position: absolute;
+	z-index: 10;
+	width: 60.416667%;
+	min-width: 725px;
+	height: auto;
+	margin-top:15%; 
+	margin-left: 19.7916665%;
+	font-size: 1vw;
+	font-weight:400;
+	letter-spacing: 1px;
+	font-family:Sans-serif;
+	
+}
+/*解释的文字部分*/
+.glc_qixi_rule_describe{
+	display: block;
+	margin:auto;
+	color: #fff;
+}
+/*/*解释的表格部分*/
+.glc_qixi_rule_tableT{
+	display: block;
+	width: 100%;
+	margin: 3% auto auto auto;
+	color: #191271;
+	line-height: 35px;
+	font-weight:600;
+	text-align: center;
+	border-collapse: collapse;
+}
+/*控制表格样式*/
+.glc_qixi_rule_tableT tr>th{
+	background-color: #f2d613;
+	width: 29.71%;
+}
+.glc_qixi_rule_tableT tr,tr>th:first-child{
+	border:1px solid #191271;
+}
+
+.glc_qixi_rule_tableT tr>td:first-child{
+	background-color: #f2d613;
+	border:1px solid #191271;
+
+}
+.glc_qixi_rule_tableT tr>td:nth-child(2),tr>td:nth-child(3),tr>td:nth-child(4){
+	background-color: #fff;
+}
+
+/*lower区域的诗歌*/
+.glc_qixi_lower_poem{
+	position: absolute;
+	z-index: 2;
+	width: 12.416667%;
+	min-width: 149px;
+	height: auto;
+	margin: 13% auto auto 60.416667%;
+	color: #000;
+	font-size: 1vw;
+	font-family: sans-serif;
+	font-weight: 600;
+}
+.glc_qixi_ruize{
+	text-align: right;
+}
