@@ -10,7 +10,7 @@ body{
 	margin-top: 50px;
 }
 /*定义大容器*/
-.glc_qixi_rule{
+.glc_qixi_center{
 	min-width: 1200px;
 	height: auto;
 }
@@ -23,7 +23,7 @@ body{
 .glc_qixi_rule{
 	position: relative;
 	min-width: 1200px;
-	margin: -3px auto auto auto;
+	margin: -4px auto auto auto;
 }
 /*下部区域——lower部分*/
 .glc_qixi_lower{
